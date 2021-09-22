@@ -1,0 +1,40 @@
+@media screen and (min-width: $mobile) {
+.home__banner{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #c9c9c9;
+    text-align: center;
+}
+.home__banner-aside{
+    padding: 16px 24px;
+}
+.home__banner-link{
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+    font-weight: 600;
+    white-space: nowrap;
+}
+}
+@media screen and (max-width: $mobile) {
+    .home__banner{
+        display: block;
+        width: 100%;
+        height: 60px;
+        background-color: #c9c9c9;
+        text-align: center;
+
+
+    }
+    .home__banner-aside{
+        padding: 16px 24px;
+    }
+    .home__banner-link{
+        font-size: 12px;
+        line-height: 16px;
+        color: black;
+        font-weight: 600;
+        white-space: nowrap;
+    }
+}

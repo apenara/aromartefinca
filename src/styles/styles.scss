@@ -1,0 +1,17 @@
+//Archivo base para importacion de estilos
+
+@import './base/settings';
+@import './base/base';
+
+//components styles
+@import './components/home';
+@import './components/habitaciones';
+@import './components/habitacion';
+@import './components/banner';
+@import './components/slider';
+@import './components/section';
+@import './components/motor';
+@import './components/cards';
+@import './components/nav';
+@import './components/explora';
+@import './components/footer';

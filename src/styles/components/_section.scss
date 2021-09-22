@@ -1,0 +1,89 @@
+@media screen and (min-width: $mobile) {
+    .section__container{
+    padding-top: 91px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section__slider-container{
+    // padding-top: 14px;
+    background-color: white;
+    color: $dark-grey;
+    display: flex;
+    margin-bottom: 129px;
+    overflow: hidden;
+    overflow-x: auto;
+    display: grid;
+    gap: 28px;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(calc(var(--column-count) - 1), calc(100% - 108 px)) 100%;
+    grid-auto-flow: column;
+    scroll-snap-type: x mandatory;
+} 
+
+.section__slider-container-big{
+    padding-top: 14px;
+    background-color: white;
+    color: $dark-grey;
+    display: flex;
+    margin-bottom: 10px;
+    overflow: hidden;
+    overflow-x: auto;
+    display: grid;
+    gap: 12px;
+    grid-template-rows: repeat(1, auto);
+    grid-template-columns: repeat(calc(var(--column-count) - 1), calc(100% - 108 px)) 100%;
+    grid-auto-flow: column;
+    scroll-snap-type: x mandatory;
+}
+.section__title{
+    color: $primary;
+    padding-bottom: 43px;
+    font-size: 60px;
+    font-weight: 600;
+}
+}
+@media screen and (max-width: $mobile) {
+    .section__container{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+
+    .section__slider-container{
+        padding-top: 14px;
+        background-color: white;
+        color: $dark-grey;
+        display: flex;
+        margin-bottom: 10px;
+        overflow: hidden;
+        overflow-x: auto;
+        display: grid;
+        gap: 12px;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(calc(var(--column-count) - 1), calc(100% - 108 px)) 100%;
+        grid-auto-flow: column;
+        scroll-snap-type: x mandatory;
+    }
+
+    .section__slider-container-big{
+        padding-top: 14px;
+        background-color: white;
+        color: $dark-grey;
+        display: flex;
+        margin-bottom: 10px;
+        overflow: hidden;
+        overflow-x: auto;
+        display: grid;
+        gap: 12px;
+        grid-template-rows: repeat(1, auto);
+        grid-template-columns: repeat(calc(var(--column-count) - 1), calc(100% - 108 px)) 100%;
+        grid-auto-flow: column;
+        scroll-snap-type: x mandatory;
+    }
+    .section__title{
+        color: $primary;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+}

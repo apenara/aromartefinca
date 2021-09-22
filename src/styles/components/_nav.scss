@@ -1,0 +1,86 @@
+@media screen and (min-width: $mobile) {
+    nav{
+    display: none;
+}
+}
+
+@media screen and (max-width: $mobile) {
+    nav{
+        display: initial;
+        width: 100%;
+        align-items: center;
+        background-color: #F7F7F7;
+        border-top: 1px solid rgb(221, 221, 221);
+        bottom: 0px;
+        height: 65px;
+        left: 0px;
+        overflow: hidden;
+        position: fixed;
+        z-index: 100;
+        transition: -ms-transform 0.2s cubic-bezier(0, 0, 0.1, 1) 0s, -webkit-transform 0.2s cubic-bezier(0, 0, 0.1, 1) 0s, transform 0.2s cubic-bezier(0, 0, 0.1, 1) 0s, visibility 0s ease 0s !important;
+    }
+
+    .nav__elements{
+        -moz-box-pack: center;
+        display: flex;
+        height: 100%;
+        justify-content: space-evenly;
+        margin: 0px auto;
+        max-width: 560px;
+    }
+    .nav__element{
+        margin-left:10px ;
+        margin-right: 10px;
+        outline: none;
+        align-items: center;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        height: 64px;
+        hyphens: auto;
+        justify-content: center;
+        max-width: 20%;
+        min-width: 0;
+        padding: 0px 2px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(34, 34, 34) !important;
+    }
+    .nav__element-book{
+        margin-left:10px ;
+        margin-right: 10px;
+        outline: none;
+        align-items: center;
+        border-radius: 8px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        height: 64px;
+        hyphens: auto;
+        justify-content: center;
+        max-width: 20%;
+        min-width: 0;
+        padding: 0px 2px;
+        text-align: center;
+        text-decoration: none;
+        color: white !important;
+        background-color: brown;
+    }
+    .nav__icon{
+        height: 30px;
+        margin-bottom: 2px;
+        padding: 3px;
+        width: 30px;
+
+    }
+    .nav__headers{
+        font-size: 10px;
+        line-height: 12px;
+        max-height: 24px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        overflow-wrap: break-word;
+    }
+}

@@ -1,0 +1,82 @@
+.habitacion__precontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px;
+}
+.habitacion__container{
+    display: flex;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.habitacion__container-elements{
+    flex:50%;
+    padding-bottom: 100px;
+}
+.habitacion__descripcion{
+    text-align: justify;
+    letter-spacing: 1.5px;
+    
+}
+.habitacion__cta{
+
+}
+.habitacion__whitespace{
+    flex: 50%;
+    width: 100%;
+}
+.habitacion__servicios-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+
+.habitacion__servicios-img{
+    width: 350px;
+    height: 500px;
+}
+.habitacion__servicios-info{
+    margin-left: 50px;
+    
+}
+.habitacion__servicios-info-title{
+    font-weight: lighter;
+    border-bottom: black solid 1px;
+}
+.habitacion__servicios-info-elements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.habitacion__servicios-svg{
+    width: 50px;
+    margin: 10px;
+}
+.habitacion__servicios-info-elements-descripcion{
+    margin-top: 20px;
+    
+}
+ul{
+list-style: none;
+}
+ul .habitacion__li::before {
+    text-align: center;
+    vertical-align: middle;
+    content: "\2022";
+    font-weight: bold;
+    color: $primary;
+    font-size: 35px;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em
+
+}
+.habitacion__servicios-img-bot{
+    width: 100%;
+}

@@ -1,0 +1,138 @@
+@media screen and (min-width: $mobile) {
+.footer__container{
+    background-color: $primary;
+    color:white;
+
+}
+.footer__brands-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 152px;
+}
+.footer__brands-img img{
+    width: 120px;
+    filter: opacity(60%);
+}
+.footer__info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $secondary;
+    // height: 524px;
+} 
+.footer__info-navigation{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-top: 90px;
+    justify-content: space-evenly;
+}
+.footer__info-nav-item-title{
+    color: $primary;
+    padding-bottom: 10px;
+}
+.footer__info-logo{
+    padding-right: 75px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-evenly;
+    // align-items: flex-end;
+}
+.footer__logo{
+    padding-top: 40px;
+    display: flex;
+    height: 260px;
+    
+}
+.footer__logo img{
+    height: 100%;
+    border-right: solid 1px $primary;
+
+}
+.footer__info-addres{
+    padding-top: 80px;
+    padding-right: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+.footer__info-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    padding-top: 30px;
+}
+
+.footer__icon{
+    color: white;
+    border: solid white 2px;
+    height: 25px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.footer__copywright{
+    padding-bottom: 10px;
+    margin: 18px;
+    font-size: 12px;
+    text-align: center;
+}
+}
+@media screen and (max-width: $mobile) {
+.footer__container{
+    background-color: $primary;
+    color:white;
+
+}
+.footer__brands-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 120px;
+}
+.footer__brands-img img{
+    width: 120px;
+    filter: opacity(60%);
+}
+.footer__info-container{
+    display: block;
+    background-color: $secondary;
+}
+.footer__info-navigation{
+    display: none;
+}
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+.footer__logo img{
+    height: 100%;
+}
+.footer__info-addres{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.footer__info-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__icon{
+    color: white;
+    border: solid white 2px;
+    height: 48px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.footer__copywright{
+    border-top: $primary solid 1px;
+    padding-bottom: 10px;
+    margin: 18px;
+}
+}

@@ -1,0 +1,105 @@
+@media screen and (min-width: $mobile) {
+    .habitaciones__main-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } 
+    .habitaciones__hero-container{
+        height: 544px;
+        width: 100vw;
+        background-image: url('../../assets/hero/herohabitaciones.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+    }
+    .habitaciones__hero-elements-menu{
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+    }
+    .habitaciones__hero-ul{
+        padding-top: 50px;
+        font-weight: bold;
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        text-decoration: none;
+    }
+    a{
+        color: white;
+    }
+    a:link{
+        text-decoration: none;
+        color: white;
+        
+    }
+    a:hover{
+        font-size: 20px;
+        color: $primary;
+    }
+    
+    .habitaciones__hero-elements{
+        padding-left: 50px;
+        display: flex;
+        width: 95%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        color: whitesmoke;
+    }
+    .habitaciones__hero-logo{
+        width: 150px;
+    }
+    .habitaciones__display-container{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .impar{
+        display: flex;
+        justify-content: center;
+        // flex-wrap: wrap-reverse;
+
+    }
+    .par{
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+
+    }
+    .habitaciones__display-info{
+        width: 500px;
+        padding: 100px 20px;
+    }
+    .habitaciones__diplay-info-title{
+        color: $primary;
+        padding-bottom: 10px;
+    }
+    .habitaciones__displiay-info-description{
+        padding-top: 10px;
+        width: 80%;
+        padding-bottom: 20px;
+    }
+    .habitaciones__display-info-boton{
+        
+        background-color: $primary;
+        width: 230px;
+        height: 61px;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 61px;
+        border-radius: 5px;
+        margin:6px;
+        padding: 15px;
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 35px;
+
+    }
+    .habitaciones__display-img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: $mobile) {
+
+}
