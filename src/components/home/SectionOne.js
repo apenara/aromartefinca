@@ -4,8 +4,6 @@ import { explora } from '../../data/explora'
 
 export const SectionOne = () => {
 
-    // const explora = [1,2,3,4,5,6];
-    // const explora = explora.map
 
     return (
         <div className="section__container">
