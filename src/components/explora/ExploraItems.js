@@ -10,10 +10,11 @@ export const ExploraItems = (exp) => {
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover'}}>
                 <div className="explora__item-title">{exp.experiencia}</div>
-            </div>
-            <div className="explora__item-text">
-                <p>{exp.duracion}</p>
-                <p>{ exp.descripcion.substring(0,140)} ...</p>
+                <div className="explora__item-text">
+                    <p>{exp.duracion}</p>
+                    <p>{ exp.descripcion.substring(0,140)} ...</p>
+                </div>
+                <div className="explora__item-cta">Conocer mas</div>
             </div>
 
 

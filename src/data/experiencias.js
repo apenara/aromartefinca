@@ -5,10 +5,7 @@ export const experiencias = [
         id:1,
         imgurl:"http://www.reporterosasociados.com.co/wp/wp-content/uploads/2015/07/Paisaje-Cafetero.jpg",
         experiencia:"Tour Rancho Andina Sostenible ",
-        categoria: [
-            "naturaleza",
-            "animales"
-        ],
+        categoria:"naturaleza",
         duracion: "8 horas",
         destacado:"La vida en campo, animales agrícolas, naturaleza, vida cotidiana, comunidades, El viajero será alguien que le guste sentir contacto con la naturaleza, tener de aventura y entretenerse un día completo con nuevas experiencias.",
         descripcion:"Este es un día de inmersión en el Campo de los andes, la cual iniciara muy temprano en la mañana, debido a que esta experiencia está enfocada en tener la experiencia de vivir como un auténtico campesino de finca de las montañas de los Andes en la región cafetera de Colombia. En este tour tendremos contacto con los animales de básicos de una finca de la región, naturaleza agrícola acorde a las altitudes y riqueza hídrica de este lugar maravilloso, tocando, sintiendo, oliendo y probando cada ingrediente y cada producto de la tierra nos brinda a través la gastronomía local y típica del campo. Tendrás contacto esencial con el café y un poco de su historia centrado en la cultura de este gran producto en las montañas. Este día nos dejara la riqueza de valorar un poco más la PACHA MAMA y sus raíces, y de entender un poco sobre la región de este lugar andino del Sudamérica.",
@@ -28,12 +25,7 @@ export const experiencias = [
         id:2,
         imgurl:"https://i0.wp.com/unmundoincontable.com/wp-content/uploads/2012/02/plaza-salento-1.jpg?resize=678%2C381&ssl=1",
         experiencia:"Tour Salento y Valle del Cócora ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje",
-            "pueblos"
-        ],
+        categoria:"naturaleza",
         duracion: "6 horas",
         destacado:"Naturaleza, cultura, tradición. El viajero será alguien que le guste sentir contacto con la naturaleza, conocer las palmas más altas del mundo, estar en los Andes colombianos, visitar un pueblo tradicional y colorido, ver artesanías, conocer de arquitectura colonial.",
         descripcion:"Iniciarás el día con las más sorprendentes montañas en donde se ubican las gigantes y ancestrales “Palmas de Cera”, allí experimentarás la frescura de los andes mediante una caminata de aproximadamente dos horas. Continuando con tu experiencia visitarás un mágico lugar en el cual te deleitarás con la gastronomía local en las mejores presentaciones. Luego disfrutarás de la cultura local recorriendo las calles históricas del pueblo más visitado de la región cafetera. Regreso al punto de encuentro.",
@@ -53,11 +45,7 @@ export const experiencias = [
         id:3,
         experiencia:"Tour Filandia Cultural ",
         imgurl:"https://upload.wikimedia.org/wikipedia/commons/2/2c/Filandia.jpg",
-        categoria: [
-            "cultura",
-            "pueblos",
-            "paisaje"
-        ],
+        categoria:"pueblos",
         duracion: "4-5 horas",
         destacado:"Naturaleza, cultura, tradición, cestería, arquitectura, El viajero será alguien que quiera conocer más de Filandia y su cultura gastronómica.",
         descripcion:"Filandia, conocida por ser uno de los municipios más hermosos del norte del Departamento del Quindío, ofrece gran variedad de platos típicos y gourmet, allí disfrutarás de una mágica experiencia con la tradición de la cestería, no te quedarás sin deleitar la gran variedad gastronómica que nos ofrece este hermoso municipio. Concluirás con un recorrido por las principales calles de este colorido lugar donde verás las construcciones antiguas y autóctonas de la región cafetera.",
@@ -77,12 +65,7 @@ export const experiencias = [
         id:4,
         imgurl:"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Calledefilandia.jpg/800px-Calledefilandia.jpg",
         experiencia:"Tour Filandia: Excursión Natural y Pueblo",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje",
-            "pueblos"
-        ],
+        categoria: "pueblos",
         duracion: "4-5 horas",
         destacado:"Cultura, arquitectura y tradición, Naturaleza, cultura, mono Aullador de los Andes, aves endémicas del lugar, bejucos.",
         descripcion:"Filandia es la hija de las montañas andinas de Colombia, ventana que se abre al Quindío, emporio de gran porvenir, exponente de la arquitectura española, con casas coloridas de fachadas auténticas, balcones antiguos, ventanas y puertas propias de la colonización. A tan solo unos pocos Kms del Parque Principal, y con un recorrido de 3 horas aproximadamente disfrutarás de una mágica experiencia en una hermosa reserva natural  y con suerte verás al majestuoso “Mono Aullador”, aves endémicas del lugar, bejucos de hasta más de 50 años entre la flora y fauna.",
@@ -102,13 +85,7 @@ export const experiencias = [
         id:5,
         imgurl:"https://www.whereismykiwi.com/wp-content/uploads/2020/04/portada-valle-del-cocora-xl.jpg",
         experiencia:"Tour Valle del Cócora, Salento y Filandia ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje",
-            "pueblos",
-            "cultura"
-        ],
+        categoria: "naturaleza",
         duracion: "8 horas",
         destacado:"La vida en campo, animales agrícolas, naturaleza, vida cotidiana, comunidades. El viajero será alguien que le guste sentir contacto con la naturaleza, conocer las palmas más altas del mundo, estar en los Andes colombianos, visitar un pueblo tradicional y colorido, ver artesanías, conocer de arquitectura colonial. ",
         descripcion:"Este tour empieza con una caminata bajo las palmas de cera más altas del planeta en el Valle del Cócora, ascendiendo en la montaña para conocer el bosque de palmas. Luego seguimos este viaje destacando la arquitectura colonial de los pueblos cafeteros,  Visitando al pueblo Salento, para conocer de cerca la calle real por la que camino Simón Bolívar hasta llegar al mirador del pueblo, luego en allí se tomara el almuerzo típico del día, más tarde partimos al maravilloso municipio de Filandia, para recorrer las principales calles del pueblo y sus miradores artesanales. Finalmente, regreso al punto de encuentro.",
@@ -127,11 +104,7 @@ export const experiencias = [
         id:6,
         imgurl:"https://www.glampinglumbre.com/wp-content/uploads/2017/08/reservacaime.jpg",
         experiencia:"Tour Hiking Valle de Cócora y Acaime ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje"
-        ],
+        categoria:"naturaleza",
         duracion: "8 horas",
         destacado:"La vida en las montañas, paisajismo, especies nativas del páramo, altitud, aventura, caminar, conocer pueblos, arquitectura.",
         descripcion:"Una de las mejores actividades que se pueden hacer en la región cafetera es hacer una gran caminata por la montaña, en uno de los lugares más importantes del mundo. Por eso nos trasladamos al Valle de Cócora para iniciar un circuito de naturaleza que nos envuelve con todos sus paisajes y diversidad de territorio. Ascendiendo en una aventura única en las mismas alturas, para conocer el refugio de los colibríes, tomar una bebida típica, subir el cerro y finalmente tomar un pequeño refrigerio. Además, se procede descendiendo por los cerros y las fincas que bordean el lugar, atravesando así las Palmas más altas del mundo. Más tarde recorremos el pueblo de Salento por su calle principal, plaza y tiendas, así finalmente almorzar un plato típico del sitio y luego retorno al final al punto de encuentro.",
@@ -151,12 +124,7 @@ export const experiencias = [
         id:7,
         imgurl:"https://elturismoencolombia.com/wp-content/uploads/2020/02/pijao-quindio-iglesia-pijao-colombia-turismo-1.jpg",
         experiencia:"Tour visita a los Andes: Pijao, Córdoba y Buenavista ",
-        categoria: [
-            "naturaleza",
-            "cultura",
-            "paisaje",
-            "pueblos"
-        ],
+        categoria:"naturaleza",
         duracion: "8 horas",
         destacado:"El viajero será alguien que le guste el paisajismo, conocer un servido de creativo, caminar sobre pueblos detenidos en el tiempo, y viajar en la cordillera andina en un jeep autentico tradicional. Naturaleza, cultura, tradición, artesanías, aventura, paisajismo.",
         descripcion:"Este día tendrás durante todo el tour como transporte el auténtico Jeep Willys Cafetero, en el cual vivirás la experiencia de visitar 3 pueblos ubicados en la cordillera andina de Colombia, pueblos con una altitud promedio de 1.860 metros sobre el nivel del mar. Primero visitaremos Córdoba y conoceremos un poco sobre el acero vegetal “La Guadua”, continuamos en Pijao donde veremos sus calles coloridas y tranquilas que parecen detenidas en el tiempo, allí tomaremos un café sorpresa que se roba la alegría de cada persona, luego visitaremos Buenavista para ver el famoso Café San Alberto con su imponente mirador; más tarde de regreso al lugar de inicio, se tendrá el almuerzo en un lugar típico con platos de la región ",
@@ -176,12 +144,7 @@ export const experiencias = [
         id:8,
         imgurl:"https://www.revistacompensar.com/wp-content/uploads/2018/09/20-de-septiembre-1.jpg",
         experiencia:"Tour Aves del Quindío ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje",
-            "avistamiento de aves"
-        ],
+        categoria:"naturaleza",
         duracion: "8 horas",
         destacado:"Naturaleza, avistamiento de aves, paisajismo, aventura, tradición. El viajero será alguien que le guste sentir contacto con la naturaleza, avistamiento de aves, aventura. Este tour te llevara a conocer  el 30% de las especies de aves en Colombia.",
         descripcion:"Este es uno de los destinos más icónicos del Quindío en Avifauna, Córdoba y Pijao son destinos tradicionales del paisaje cultural cafetero que albergan grandes áreas de bosques y páramos alto-andinos, en este lugar vas a encontrar aproximadamente el 30% de las especies de aves en Colombia con visión directa y permanente a ellas, gracias a las herramientas que nos facilitarán la observación en plenas montañas de los Andes. Este tour iniciara desde horas tempranas de la mañana.",
@@ -201,13 +164,7 @@ export const experiencias = [
         id:9,
         imgurl:"https://www.continentalvoyages.com/wp-content/uploads/2017/01/ON-VACATION-EJE-CAFETERO-HOTEL-HACIENDA-CAFETERA-KARLAKA-HABITACIONES_1.jpg",
         experiencia:"Tour Hacienda Cafetera Calarcá ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje",
-            "café",
-            "cultura"
-        ],
+        categoria:"cafe",
         duracion: "4 horas",
         destacado:"La vida en campo, naturaleza, vida cotidiana, comunidades. El viajero será alguien que le gusten los recorridos cafeteros, sentir contacto con la naturaleza, entretenerse un día completo con tradiciones cafeteras.",
         descripcion:"Muy cerca de la ciudad de Armenia, visitará una hacienda cafetera, donde sus dueños expresan la pasión por producir, tostar y preparar el mejor café del mundo. Camina por los cultivos de café para conocer los detalles del proceso de producción. Diferentes sabores y preparaciones acompañan el recorrido, estimulando tus sentidos, luego un maestro tostador te compartirá los detalles para lograr el nivel de tueste adecuado donde el café colombiano exprese sus mejores sabores.  Uno de los métodos de preparación, en el que una taza de café será inolvidable.",
@@ -225,13 +182,7 @@ export const experiencias = [
     },    {
         id:10,
         experiencia:"Tour Café San Alberto ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje",
-            "cultura",
-            "cafe"
-        ],
+        categoria:"cafe",
         duracion: "5 horas",
         destacado:"La vida en campo, naturaleza, vida cotidiana, comunidades. El viajero será alguien que le guste sentir contacto con la naturaleza, tener de aventura y entretenerse un día completo con nuevas experiencias. Este tour te llevara a conocer el lugar de cultivo, selección y producción de San Alberto, el café más premiado de Colombia.",
         descripcion:"San Alberto es un un café de un solo origen con el riguroso proceso de la Quíntuple Selección; que garantiza una gran consistencia y un sabor inigualable. Los consumidores se han vuelto más exigentes y con los productos que consumen, San Alberto reconociendo esta realidad ha decidido diseñar una aventura inolvidable a través de la plantación y los procesos que dan origen a Café San Alberto. Los visitantes realizaran un recorrido para conocer los atributos del café de montaña donde se encuentran los cultivos, mientras aprenden acerca de cada detalle que hace que San Alberto sea un producto único. El recorrido finaliza con una sesión de catación en el laboratorio, donde las personas aprenderán a diferenciar la calidad del café a través de la metodología utilizada por los expertos. Al final, traslado de regreso a Pereira.",
@@ -250,12 +201,7 @@ export const experiencias = [
     {
         id:11,
         experiencia:"Tour Balsaje Rio la Vieja ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje",
-            "aventura"
-        ],
+        categoria:"aventura",
         duracion: "7 horas",
         destacado:"Naturaleza, aventura, avistamiento de aves, Fauna y flora de la región, actividades acuáticas, actividades acuáticas y cultura. El viajero será alguien que le guste sentir contacto con la naturaleza, nadar, actividades de rio, avistamiento de aves e iguanas. Este tour te llevara a vivir una aventura por el rio más grande de la región.",
         descripcion:"Recepción en el punto de encuentro. En la mañana se inicia esta aventura por el río más grande de la región “Río La Vieja”.  Para llegar hasta el lugar del balsaje, serás transportado en un tradicional Jeep Willys pasando por senderos verdes y montañas cafeteras. Luego en una Artesanal Balsa y muy segura para la actividad humana, hecha en Guadua Colombiana e imponentes bejucos entrelazados iniciarás una travesía por el rio en el que se puede observar fauna y flora de la región. La balsa será privada y tendrá como máximo 8 personas a bordo. La experiencia incluye almuerzo típico llamado el famoso Fiambre montañero, luego se hará el traslado al punto de origen.",
@@ -274,11 +220,7 @@ export const experiencias = [
     {
         id:12,
         experiencia:"Tour Mariposario ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje"
-        ],
+        categoria:"naturaleza",
         duracion: "4 horas",
         destacado:"Naturaleza, Amantes a las mariposas, Aves y especies nativas, planes tranquilos y cortos.",
         descripcion:"Disfrutarás de un maravilloso parque y reserva natural localizado en los Andes centrales de Colombia, en una zona de alta diversidad biológica debido a que sus suelos están formados de cenizas volcánicas, tiene una precipitación superior a los 2.200 mm, sus bosques se remontan al período terciario. Esto generó un alto nacimiento de flora y fauna. Este conjunto de circunstancias hace que el sector del jardín botánico y sus alrededores sea un lugar excepcional para la contemplación de la naturaleza y así destacar la estrecha relación entre las plantas y estos maravillosos insectos. Con un recorrido de aproximadamente 2 horas lograrás comprender la gracia maravillosa de las flores y mariposas.",
@@ -297,12 +239,7 @@ export const experiencias = [
     {
         id:13,
         experiencia:"Tour Laguna de Otún ",
-        categoria: [
-            "naturaleza",
-            "senderos",
-            "paisaje",
-            "aventura"
-        ],
+        categoria:"naturaleza",
         duracion: "10 horas",
         destacado:"La vida en las montañas, paisajismo, especies nativas del páramo, altitud, aventura, trekking, El viajero será alguien que le guste sentir contacto con la naturaleza, las caminatas de alta montaña y  la aventura.",
         descripcion:"El punto de encuentro para la salida para el pasadía a La Laguna del Otún es en el autoservicio Graja les de la Plaza de Bolívar de Pereira a las 4 de la mañana. Allí se aborda un vehículo 4×4 para hacer un recorrido aproximado de 3 horas por la vía Pereira – Santa Rosa de Cabal – Termales San Vicente – Potosí. En este recorrido se podrán contemplar diferentes tipos de ecosistemas siendo el más representativo el ecosistema de páramo en la parte alta. Después de este recorrido en el vehículo se llega a la posada campesina Hostal Campo Alegre – Sector Potosí – a 3850 msnm donde se tomará el desayuno y se apreciará más de cerca el ecosistema de páramo. Posterior al desayuno se recibe una charla de inducción al Parque Nacional Natural Los Nevados por parte de personal del área protegida y se inicia una caminata de 5 km en compañía de un guía intérprete ambiental hasta el sector La Asomadera (mirador de la Laguna del Otún) con una duración aproximada de dos horas y media a tres horas. Una vez en la Asomadera y después de una valoración de la condición física de las personas se puede tomar la decisión de hacer un recorrido adicional; Mirador de la Laguna de Víctor o descenso al bosque del Edén, este último es un bosque de frailejones la planta más característica y emblemática del ecosistema de Páramo. A la 1 de la tarde a más tardar se debe iniciar la caminata de regreso hacia la posada Campo Alegre para tomar un reconfortante almuerzo y abordar el vehículo que retornara a la ciudad de Pereira.",

@@ -8,6 +8,7 @@ import amenities from '../../assets/icons/servicios/amenities.svg'
 import minibar from '../../assets/icons/servicios/minibar.svg'
 import lavamanos from '../../assets/icons/servicios/lavamanos.svg'
 import closet from '../../assets/icons/servicios/closet.svg'
+import { Motor } from '../static/Motor'
 
 export const Habitacion = () => {
     return (
@@ -55,7 +56,9 @@ export const Habitacion = () => {
                     </div>
 
                 </div>
+                <Motor/>
                 <div className="habitacion__servicios-img-gal">
+                <h2>Otras habitaciones</h2>
                     <img className="habitacion__servicios-img-bot" src="http://fincahotelaromarte.com/wp-content/uploads/2021/02/Superior_King_Mural-min-1-scaled.jpg" alt="habitacion arriero"/>
 
 
