@@ -1,3 +1,7 @@
+#Aromarte Finca Hotel Website
+Pagina web de un hotel en filandia Quindiom, creado con React JS
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
